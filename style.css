@@ -1,0 +1,31 @@
+@include media-breakpoint-up(sm) {
+  ...;
+}
+@include media-breakpoint-up(md) {
+  ...;
+}
+
+@media (max-width: 767.98px) {
+    #servicos {
+        padding: 0;
+    }
+
+  .services {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .services > div {
+    width: 100%;
+  }
+
+  .list {
+    flex-direction: column
+  }
+
+  .contact {
+    flex-direction: column;
+    padding: 1rem 0;
+    width: 100%;
+  }
+}
